@@ -154,7 +154,7 @@ ALTER TABLE table_name MODIFY column_name NEW_DATA_TYPE;
 SELECT DISTINCT salary 
 FROM salaries 
 ORDER BY salary DESC 
-LIMIT 1 OFFSET 2;
+LIMIT 1 OFFSET 2;            #Fetches only 1 row after skipping the first 2.
 
 ```
 - **How do you create a primary key in a table?**
